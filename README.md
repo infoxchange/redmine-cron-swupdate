@@ -98,8 +98,8 @@ For troubleshooting purposes, this script can be run from the command line like 
 /usr/local/bin/redmine-cron-swupdate.py -s redmine.example.com -u e37c43496a4b66f855cf53c18987d6a71324 -p anything -n -v -k < cron-email-with-headers.txt
 ```
 where:
-  -n ... don't create or update tickets
-  -v ... verbose messages
-  -k ... don't check the SSL certificate
-  -u, -p ... username, password --or-- apikey, unused
-  cron-email-with-headers.txt is a plain text file containing 1 entire cron-apt or yum-cron message, including the message headers
+    -n ... don't create or update tickets
+    -v ... verbose messages
+    -k ... don't check the SSL certificate
+    -u, -p ... username, password --or-- apikey, unused
+    cron-email-with-headers.txt is a plain text file containing 1 entire cron-apt or yum-cron message, including the message headers
